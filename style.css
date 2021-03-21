@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.gallary {
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+}
+
+
+img {
+    width: 320px;
+    height: 180px;
+    cursor: pointer;
+}
+
+img data-name {
+    width: 320px;
+    height: 180px;
+    background-color: black;
+    color: white;
+    
+}
+
